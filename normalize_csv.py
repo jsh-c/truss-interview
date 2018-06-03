@@ -11,9 +11,9 @@ def parse_line(line):
     fields[3] = normalize_name(fields[3])
     foo_duration = normallize_duration(fields[4])
     bar_duration = normallize_duration(fields[5])
-    fields[4] = str(foo_duration)
-    fields[5] = str(bar_duration)
-    fields[6] = str(foo_duration + bar_duration)
+    fields[4] = format(foo_duration, '.3f')
+    fields[5] = format(bar_duration, '.3f')
+    fields[6] = format(foo_duration + bar_duration, '.3f')
 
     return ",".join(fields)
 
