@@ -1,3 +1,13 @@
+# How to run the program
+
+1. First make sure you have Python 3 installed on your machine
+2. Open a terminal console, run the following in command line: 
+    ```
+     > python3 nomalize_csv.py < sample.csv
+    ```
+
+---
+
 _This is one of the steps in the Truss interview process. If you've
 stumbled upon this repository and are interested in a career with
 Truss, [check out our jobs page](https://truss.works/jobs)._
